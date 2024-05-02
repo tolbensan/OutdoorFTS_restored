@@ -35,7 +35,7 @@ void brake()
 
 void steer()
 {
-    std::string direction = "straight";
+    std::string direction = "straight";     //Default value
     //calculate steering angle
     //set steering angle to step engine
     std::cout << "Driving " << direction << std::endl;
